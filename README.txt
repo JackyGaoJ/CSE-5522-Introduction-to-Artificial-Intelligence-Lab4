@@ -1,0 +1,5 @@
+Author : Jian Gao
+
+    This Lab4 is similar to hands-on 3 in class. And the model, training function and test function is similar to those in hands-on. So, I just use the frame in hands-on and edit the model, the training-test data sets and functions based on the frame. In order to let the MLP2 model train the dataset, I first change all vowels to trainable integers such as "iy" maps to "0".
+    
+    As for models, I initialzed input dim as 2, hidden dim as 100 as required and output dim as 9 since there are 9 vowels. And I run the model for 50000 iterations. Although it is slow, the accuracy is about 60%. After I added 100 hidden units, the accuracy increased a little bit, final result is about 64%. This is the first variation of the model. The second variable of the model is adding a hidden layer to the model. The accuracy increase more than that of adding 100 hidden units, the accuracy reached 66%. All result is in the code file, and I used Markdown to write the result. 
